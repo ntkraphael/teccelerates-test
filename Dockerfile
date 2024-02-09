@@ -17,4 +17,4 @@ RUN pnpm run build
 # Azure set redirect URI to 'http://localhost/home' not with port 3000 ????????
 EXPOSE 80
 
-CMD ["pnpm", "start"]
+CMD ["pnpm", "start", "-p", "80"]
