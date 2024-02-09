@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+This project is a test from Teccelerates requiring OpenID Connect (OIDC)single-logon to Azure Directory user account to fetch user data. The data is shown to a logged in page.
+
+React framework Next.js version 14 is used in the project with next-auth for OIDC authentication
+
 ## Getting Started
 
 First, run the development server:
