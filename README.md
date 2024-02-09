@@ -22,3 +22,14 @@ Open [http://localhost](http://localhost) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+## Build and Run Container
+
+1. Install Docker at [https://docs.docker.com/desktop/install/mac-install](https://docs.docker.com/desktop/install/mac-install). For Windows, [https://docs.docker.com/desktop/install/windows-install](https://docs.docker.com/desktop/install/windows-install)
+
+2. You can build an image by following command at root directory:
+- Since redirect url does not use port 3000, the 
+```bash
+docker build -t test-teccelerates .
+docker run --name test-demo -p 80:80 test-teccelerates
+```
+
